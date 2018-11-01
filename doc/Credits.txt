@@ -1,0 +1,2 @@
+S.T.R.E.A.M. GUI software and microcontroller firmware by "JakeSoft" (http://forum.arduino.cc/index.php?topic=261980.0)
+JSerialComm library was created and developed by Will Hedgecock (@willhedgecock) of Fazecast, Inc. (@fazecast)
