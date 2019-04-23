@@ -1,0 +1,16 @@
+Version 1.0
+-----------
+Initial Release
+
+Version 1.5
+-----------
+Firmware:
+- Added pixel blade support
+- Fixed bug where CPU could hang after waking up from deep sleep
+GUI:
+- Added pixel blade length setting to options screen
+- Added ability to save sound timings to PC hard disk
+
+
+
+
