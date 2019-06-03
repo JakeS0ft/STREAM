@@ -12,6 +12,7 @@ GUI:
 - Added ability to save sound timings to PC hard disk
 
 Version 1.51
+------------
 Firmware:
 - Added Brewboard and Brewboard Pixel versions
 GUI:
