@@ -18,5 +18,7 @@ Firmware:
 GUI:
 - Added Brewboard and Brewboard Pixel firmware install options
 
-
-
+Version 1.52
+------------
+Firmware:
+- Updated free version for 4 fonts
