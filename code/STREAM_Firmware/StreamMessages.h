@@ -18,7 +18,7 @@
  * StreamMessages.h
  *
  *  Created on: May 21, 2017
- *      Author: Jake
+ *      Author: JakeSoft
  */
 
 #ifndef STREAMMESSAGES_H_

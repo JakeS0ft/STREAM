@@ -18,7 +18,7 @@
  * SoftwareReset.h
  *
  *  Created on: Jul 24, 2017
- *      Author: Jake
+ *      Author: JakeSoft
  */
 
 #ifndef SOFTWARERESET_H_

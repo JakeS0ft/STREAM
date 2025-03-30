@@ -18,7 +18,7 @@
  * StreamControl.cpp
  *
  *  Created on: May 17, 2017
- *      Author: Jake
+ *      Author: JakeSoft
  */
 
 #include "StreamControl.h"

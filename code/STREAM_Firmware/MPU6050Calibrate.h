@@ -18,7 +18,7 @@
  * MPU6050Calibrate.h
  *
  *  Created on: Sep 13, 2018
- *      Author: Jake
+ *      Author: JakeSoft
  */
 
 #ifndef MPU6050CALIBRATE_H_

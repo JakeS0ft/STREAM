@@ -18,7 +18,7 @@
  * MenuStateMachine.h
  *
  *  Created on: Jul 27, 2017
- *      Author: Jake
+ *      Author: JakeSoft
  */
 
 #ifndef MENUSTATEMACHINE_H_

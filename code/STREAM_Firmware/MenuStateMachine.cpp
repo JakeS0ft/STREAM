@@ -19,7 +19,7 @@
  * MenuStateMachine.cpp
  *
  *  Created on: Jul 27, 2017
- *      Author: Jake
+ *      Author: JakeSoft
  */
 
 #include "MenuStateMachine.h"

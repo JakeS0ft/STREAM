@@ -18,7 +18,7 @@
  * Pins_Brewboard.h
  *
  *  Created on: May 10, 2019
- *      Author: Jake
+ *      Author: JakeSoft
  */
 
 #ifndef PINS_BREWBOARD_H_

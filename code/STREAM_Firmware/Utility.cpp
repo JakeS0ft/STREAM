@@ -18,7 +18,7 @@
  * Utility.cpp
  *
  *  Created on: Aug 9, 2017
- *      Author: Jake
+ *      Author: JakeSoft
  */
 
 #include "Utility.h"
