@@ -1,0 +1,4 @@
+[Channel Limits]
+Channel1_Limmit=255;
+Channel2_Limmit=255;
+Channel3_Limmit=255;

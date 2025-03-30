@@ -1,0 +1,59 @@
+/*
+ This file is part of the STREAM Graphical User Interface program (STREAM GUI).
+
+ STREAM GUI is free software: you can redistribute it
+ and/or modify it under the terms of the GNU General Public License as
+ published by the Free Software Foundation, either version 3 of the License,
+ or (at your option) any later version.
+
+ The STREAM GUI software is distributed in the hope that it will be
+ useful, but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+
+ You should have received a copy of the GNU General Public License
+ along with the software.  If not, see <http://www.gnu.org/licenses/>.
+*/
+package CommandMessages;
+
+import Settings.tMotionParameters;
+import java.util.ArrayList;
+
+/**
+ *
+ * @author Jake
+ */
+public class tSetMotionConfigMsg extends CmdMsgBase
+{
+   public tSetMotionConfigMsg()
+   {
+       mMsgId = (byte)MessageIds.eeCmdSetBladeConfig.eeCmdSetMotionConfig.ordinal();
+       mParameters = new tMotionParameters();
+       
+       //mSize
+       mSize = 10; //number of bytes in mParameters
+   }
+   
+   @Override
+   public ArrayList<Byte> GetBytes()
+   {
+       ArrayList<Byte> lBytes = new ArrayList();
+       
+       lBytes.add(mMsgId);
+       
+       lBytes.addAll(Util.Converter.short2bytes(mSize));
+       
+       lBytes.addAll(Util.Converter.short2bytes(mParameters.mSwingLargeTol));
+       lBytes.addAll(Util.Converter.short2bytes(mParameters.mSwingMediumTol));
+       lBytes.addAll(Util.Converter.short2bytes(mParameters.mSwingSmallTol));
+       
+       lBytes.addAll(Util.Converter.short2bytes(mParameters.mClashTol));
+       
+       lBytes.addAll(Util.Converter.short2bytes(mParameters.mTwistTol));
+       
+       return lBytes;
+   }
+   
+   public Short mSize;
+   public tMotionParameters mParameters;
+}
