@@ -22,3 +22,10 @@ Version 1.52
 ------------
 Firmware:
 - Updated free version for 4 fonts
+
+Version 1.54
+------------
+Firmware:
+- Open source firmware release
+- Fix issue where motion engine settings sometimes not applied after deep sleep
+
