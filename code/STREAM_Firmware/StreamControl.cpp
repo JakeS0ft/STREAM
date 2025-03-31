@@ -37,7 +37,8 @@ mBladeControlEnabled(false),
 mFirmwareVersionMajor(0),
 mFirmwareVersionMinor(1),
 mBladeEffect(0),
-mFlickerEnabled(false)
+mFlickerEnabled(false),
+mIsConnected(false)
 {
 	//Do nothing, just initializers
 }
