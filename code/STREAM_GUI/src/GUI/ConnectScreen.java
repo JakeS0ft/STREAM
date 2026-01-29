@@ -193,6 +193,15 @@ public class ConnectScreen
             mStatusLabel.setText("Connected.");
             System.out.println("Connected.");
             
+            try
+            {
+                Thread.sleep(2000);
+            }
+            catch(InterruptedException lEx)
+            {
+                lEx.printStackTrace();
+            }
+            
             for(int lTry = 0; lTry < 120 & mAckCount < 3; lTry++)
             {
                 Integer lMsgId = CommandMessages.MessageIds.eeCmdRequestAck.ordinal();

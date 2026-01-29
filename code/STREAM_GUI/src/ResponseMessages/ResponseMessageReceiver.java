@@ -111,6 +111,18 @@ public class ResponseMessageReceiver implements Runnable {
         System.out.println(" ");
     }
     
+    private void PrintRxBuffer()
+    {
+        System.out.print("RX Buf:");
+        for(Byte lCurByte : mReadBuffer)
+        {
+            System.out.print(lCurByte.toString());
+            System.out.print(",");
+        }
+        
+        System.out.println("");
+    }
+    
     private void DumpBuffer()
     {
         System.out.println("START");
@@ -151,10 +163,10 @@ public class ResponseMessageReceiver implements Runnable {
         if(ResponseMessages.MessageIds.eeAck.ordinal() == lMsgId)
         {
             System.out.println("Ack received.");
-
+            
             //Convert read buffer from raw bytes to a message object
             tAckMsg lAck = new tAckMsg(mReadBuffer);
-
+            
             System.out.print("Ack Message Payload:");
             System.out.println(lAck.mAckMsgPayload);
 

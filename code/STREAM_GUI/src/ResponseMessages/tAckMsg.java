@@ -29,7 +29,7 @@ public class tAckMsg extends ResponseMessageBase
     {
         mMsgId = GetNextByte(aaBytes);
         mAckMsgPayload = GetNextByte(aaBytes);
-        mAckMsgPayload += GetNextByte(aaBytes) << 8;
+        //mAckMsgPayload += GetNextByte(aaBytes) << 8;
     }
     
     public byte mAckMsgPayload;
